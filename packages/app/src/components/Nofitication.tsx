@@ -10,7 +10,6 @@ import { isiOS } from '../utils/platform';
 import { useIsLogin, useStore } from '../hooks/useStore';
 import store from '../state/store';
 
-var temp = 0;
 function enableNotification() {
     Notifications.setNotificationHandler({
         handleNotification: async () => ({
