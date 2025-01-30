@@ -7,6 +7,8 @@ type Props = {
     src: string;
     size: number;
 };
+
+let flag = 0;
 export default function Avatar({ src, size }: Props) {
     const targetUrl = getOSSFileUrl(
         src,
